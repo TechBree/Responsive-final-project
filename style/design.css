@@ -1,7 +1,93 @@
-h1 {
-  color: red;
+h1,
+p {
+  font-family: "Roboto", serif;
 }
 
-body {
-  background-color: blue;
+main {
+  background-color: #1b1b1b;
+}
+.photo-header {
+  max-width: 8000px;
+  height: 900px;
+  padding: auto;
+}
+
+.text-wrap {
+  position: absolute;
+  left: 423px;
+  text-align: center;
+  color: white;
+  top: 276px;
+  width: 595px;
+}
+
+.text-1 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 25px;
+}
+
+.text-2 {
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  line-height: 85px;
+}
+
+.text-3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn-main {
+  background-color: white;
+  color: #272142;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 50px;
+  padding: 20px 60px;
+  text-decoration: none;
+  letter-spacing: 2.5px;
+  margin-top: 90spx;
+}
+
+.button-container {
+  margin-top: 70px;
+}
+
+.photo-cliff {
+  width: 300px;
+  height: 280px;
+  padding-top: 9px;
+  padding-bottom: 27px;
+}
+
+.wrap-photo-1 {
+  display: flex;
+  justify-content: center;
+  width: 1152px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1008px;
+}
+
+.photo-man,
+.photo-island {
+  width: 300px;
+  height: 280px;
+}
+
+.photo-stairs {
+  width: 472px;
+}
+
+.wrap-photo-2 {
+  display: flex;
+  justify-content: center;
+  width: 1073px;
 }
