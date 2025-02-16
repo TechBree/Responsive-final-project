@@ -1,0 +1,100 @@
+:root {
+  --primary-color: white;
+  --first-font-family: "Roboto", serif;
+  --second-font-family: "Montserrat", serif;
+}
+
+.background {
+  background-image: url("/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+}
+
+.homepage-container {
+  padding: 270px 0;
+}
+
+h1,
+h3,
+p {
+  font-family: var(--first-font-family);
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 200px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.btn-branding {
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  padding: 20px 15px;
+  width: 200px;
+  margin: 40px auto;
+}
+
+.button {
+  font-family: var(--second-font-family);
+  font-size: 14px;
+  text-decoration: none;
+  color: #272142;
+  font-weight: 700;
+}
+
+.white {
+  background-color: darkblue;
+  margin: 0 auto;
+}
+
+.photo-1-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  height: 280px;
+}
+
+.photo-3 {
+  width: 386px;
+  height: ;
+}
+.photo-cliff {
+  height: 295px;
+  width: 300px;
+  background-size: contain;
+}
+
+.photo-2-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  height: 280px;
+}
+
+.photo-1 {
+  width: 300px;
+  height: 280px;
+}
+
+photo-2 {
+  width: 472px;
+  height: 280px;
+}
