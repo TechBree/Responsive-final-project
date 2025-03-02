@@ -3,13 +3,16 @@
   --first-font-family: "Roboto", serif;
   --second-font-family: "Montserrat", serif;
 }
-
+body {
+  width: 1440px;
+  height: 2440px;
+  margin: 0 auto;
+}
 .background {
   background-image: url("/images/bg.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
   background-size: cover;
-  width: 100%;
+  width: 1440px;
   height: 900px;
 }
 
@@ -56,45 +59,27 @@ p {
   font-weight: 700;
 }
 
-.white {
-  background-color: darkblue;
-  margin: 0 auto;
-}
-
-.photo-1-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin: auto;
-  padding: 0;
+.row {
+  width: 1152px;
   height: 280px;
 }
 
-.photo-3 {
-  width: 386px;
-  height: ;
-}
-.photo-cliff {
-  height: 295px;
-  width: 300px;
-  background-size: contain;
+.container {
+  margin: 82px 288px;
 }
 
-.photo-2-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin: auto;
-  padding: 0;
-  height: 280px;
-}
-
-.photo-1 {
-  width: 300px;
-  height: 280px;
-}
-
-photo-2 {
+.photo-stairs {
   width: 472px;
   height: 280px;
+}
+
+.skyscape-box {
+  width: 360px;
+}
+.photo-skyscapers {
+  width: 369px;
+}
+
+.photo-design {
+  width: 300px;
 }
