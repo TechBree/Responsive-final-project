@@ -7,13 +7,9 @@ body {
   width: 1440px;
   height: 2440px;
   margin: 0 auto;
-}
-header {
   background-color: #1b1b1b;
 }
-main {
-  background-color: #1b1b1b;
-}
+
 .background {
   background-image: url("/images/bg.png");
   background-repeat: no-repeat;
@@ -90,4 +86,28 @@ p {
 
 .photo-design {
   width: 300px;
+}
+
+.page-size {
+  height: 809px;
+  font-family: var(--first-font-family);
+}
+
+.closing-header {
+  color: #f65282;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 16.41px;
+}
+
+.closing-text {
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.closing-container {
+  margin: 168px 570px;
+  width: 352px;
+  height: 258px;
 }
