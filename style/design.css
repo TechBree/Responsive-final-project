@@ -8,10 +8,16 @@ body {
   height: 2440px;
   margin: 0 auto;
 }
+header {
+  background-color: #1b1b1b;
+}
+main {
+  background-color: #1b1b1b;
+}
 .background {
   background-image: url("/images/bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 1440px;
   height: 900px;
 }
@@ -65,7 +71,9 @@ p {
 }
 
 .container {
-  margin: 82px 288px;
+  margin: 40px auto;
+  padding: 0 auto;
+  max-width: 1152px;
 }
 
 .photo-stairs {
