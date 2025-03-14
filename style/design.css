@@ -10,6 +10,11 @@ body {
   background-color: #1b1b1b;
 }
 
+.about-content {
+  width: 1440px;
+  height: 1480px;
+}
+
 .background {
   background-image: url("/images/bg.png");
   background-repeat: no-repeat;
@@ -51,6 +56,7 @@ p {
   padding: 20px 15px;
   width: 200px;
   margin: 40px auto;
+  text-align: center;
 }
 
 .button {
@@ -110,4 +116,33 @@ p {
   margin: 168px 570px;
   width: 352px;
   height: 258px;
+}
+
+.col-6 {
+  color: white;
+}
+
+.container-about {
+  display: flex;
+  justify-content: center;
+}
+
+.bg-image {
+  width: 700px;
+  height: 782px;
+}
+
+.caption {
+  width: 560px;
+  height: 639px;
+  position: relative;
+  top: -685px;
+  left: 751px;
+}
+
+.container-images {
+  display: flex;
+  position: relative;
+  bottom: -600px;
+  left: 144px;
 }
