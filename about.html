@@ -33,49 +33,94 @@
     <link rel="stylesheet" href="style/design.css" />
     <title>About</title>
   </head>
-  <body>
-    <div class="about-content">
-      <div class="container-about">
-        <div class="row">
-          <div class="col-6 bg-image">
-            <img src="images/bg section.png" alt="" />
-          </div>
-          <div class="col-6 caption">
-            <div class="closing-header">ABOUT ME</div>
-            <h1>SHELLEY WHITE</h1>
-            <p>
-              Nisl faucibus quis urna nibh ut amet diam suscipit pretium massa
-              sollicitudin in risus in sagittis nisl faucibus quis urna nibh ut
-              amet diam suscipit pretium massa, sollicitudin in risus in.
-              Sagittis.
-            </p>
-            <div class="closing-header">MY CAMERA</div>
-            Olympus PEN-F Kamera Mirrorlees
-            <div class="btn-branding">
-              <a href="#" class="button">Contact me</a>
-            </div>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="https://www.shecodes.io/">
+          <strong>SheCodes</strong>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active text-light" href="index.html">Home</a>
+            <a class="nav-link text-light" href="about.html">About</a>
+            <a class="nav-link text-light" href="gallery.html">Gallery</a>
+            <a class="nav-link text-light" href="contact.html">Contact</a>
           </div>
         </div>
       </div>
-      <section class="container-images">
-        <div class="row">
-          <div class="col">
-            <div>
-              <img src="images/Rectangle 107.png" alt="#" />
-            </div>
+    </nav>
+  </header>
+  <body class="about-content">
+    <div class="container-about">
+      <div class="row">
+        <div class="col-6 bg-image">
+          <img src="images/bg section.png" alt="" />
+        </div>
+        <div class="col-6 caption">
+          <div class="closing-header mb-4"><strong>ABOUT ME</strong></div>
+          <h1 class="modify-size mb-5">SHELLEY WHITE</h1>
+          <p class="mb-5">
+            Nisl faucibus quis urna nibh ut amet diam suscipit pretium massa
+            sollicitudin in risus in sagittis nisl faucibus quis urna nibh ut
+            amet diam suscipit pretium massa, sollicitudin in risus in.
+            Sagittis.
+          </p>
+          <div class="about-icon mb-5">
+            <i class="fa-brands fa-facebook ms-3"></i>
+            <i class="fa-brands fa-instagram ms-3"></i>
+            <i class="fa-brands fa-linkedin ms-3"></i>
           </div>
-          <div class="col">
-            <div>
-              <img src="images/Rectangle 108.png" alt="" />
-            </div>
+          <div class="closing-header mb-4"><strong> MY CAMERA</strong></div>
+          <div class="camera-type">
+            <img src="images/image 34.png" class="pe-4" />Olympus PEN-F Kamera
+            Mirrorlees
           </div>
-          <div class="col">
-            <div>
-              <img src="images/Rectangle 109.png" alt="" />
-            </div>
+          <div class="btn-branding about-button">
+            <a href="#" class="button">Contact me</a>
           </div>
         </div>
-      </section>
+      </div>
     </div>
+    <section class="container-images">
+      <div class="row">
+        <div class="col">
+          <div>
+            <img src="images/Rectangle 107.png" alt="#" />
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <img src="images/Rectangle 108.png" alt="" />
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <img src="images/Rectangle 109.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
+  <footer class="pt-4">
+    <div class="footer-logo">
+      <a href="https://www.shecodes.io/"> SheCodes </a>
+    </div>
+    <div class="footer-icon">
+      <i class="fa-brands fa-facebook ms-3"></i>
+      <i class="fa-brands fa-instagram ms-3"></i>
+      <i class="fa-brands fa-linkedin ms-3"></i>
+    </div>
+    <div class="copyright">© 2021 SheCodes All rights reserved.</div>
+  </footer>
 </html>

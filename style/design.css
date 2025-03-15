@@ -122,11 +122,6 @@ p {
   color: white;
 }
 
-.container-about {
-  display: flex;
-  justify-content: center;
-}
-
 .bg-image {
   width: 700px;
   height: 782px;
@@ -145,4 +140,61 @@ p {
   position: relative;
   bottom: -600px;
   left: 144px;
+}
+
+.modify-size {
+  font-size: 64px;
+}
+
+.camera-type {
+  background-color: #2d2727;
+  padding: 15px 7px;
+  width: 423px;
+}
+
+.about-button {
+  margin-left: 0;
+}
+
+.navbar {
+  background-color: #202020;
+  height: 118px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+.contact-header {
+  background-color: #202020;
+  height: 75px;
+  width: 1330px;
+}
+
+footer {
+  background-color: #282323;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-logo {
+  font-family: var(--first-font-family);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.footer-logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-icon {
+  padding-left: 222px;
+}
+
+.copyright {
+  font-size: 14px;
 }
