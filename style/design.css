@@ -5,14 +5,8 @@
 }
 body {
   width: 1440px;
-  height: 2440px;
   margin: 0 auto;
   background-color: #1b1b1b;
-}
-
-.about-content {
-  width: 1440px;
-  height: 1480px;
 }
 
 .background {
@@ -95,7 +89,6 @@ p {
 }
 
 .page-size {
-  height: 809px;
   font-family: var(--first-font-family);
 }
 
@@ -186,7 +179,7 @@ footer {
   font-weight: 700;
 }
 
-.footer-logo a {
+a {
   text-decoration: none;
   color: white;
 }
@@ -197,4 +190,14 @@ footer {
 
 .copyright {
   font-size: 14px;
+}
+
+.wrap-footer {
+  margin-top: 633px;
+}
+
+.contact-footer {
+  position: relative;
+  bottom: 65px;
+  right: 100px;
 }
