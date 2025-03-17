@@ -149,6 +149,11 @@ p {
   margin-left: 0;
 }
 
+.image-wrapper {
+  position: relative;
+  bottom: -570px;
+}
+
 .navbar {
   background-color: #202020;
   height: 118px;
@@ -200,4 +205,136 @@ a {
   position: relative;
   bottom: 65px;
   right: 100px;
+}
+
+@media (max-width: 900px) {
+  .navbar-toggler {
+    background-color: white;
+  }
+  body {
+    width: 900px;
+  }
+
+  .background {
+    max-width: 900px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .homepage-container {
+    padding-top: 128px;
+    padding-bottom: 61px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 27px;
+  }
+
+  .col {
+    flex: 0;
+  }
+
+  .container,
+  .row {
+    width: auto;
+    height: 202px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+  }
+
+  .row {
+    width: 900px;
+  }
+  .resize-img-1 {
+    width: 256px;
+  }
+
+  .resize-img-2 {
+    width: 256px;
+  }
+  .resize-img-3 {
+    width: 196px;
+  }
+
+  .resize-img-4 {
+    width: 211px;
+  }
+
+  .resize-img-5 {
+    width: 208px;
+  }
+
+  .photo-stairs {
+    width: 292px;
+    height: 194px;
+  }
+
+  .resize-img-6 {
+    width: 229px;
+  }
+
+  .resize-img-7 {
+    width: 231px;
+    height: 181px;
+  }
+
+  .photo-skyscapers {
+    width: 237px;
+  }
+
+  .resize-img-8 {
+    width: 236px;
+  }
+
+  .resize-img-9 {
+    width: 230px;
+  }
+
+  .photo-design {
+    width: 225px;
+    height: 165px;
+  }
+
+  footer {
+    width: 800px;
+  }
+
+  .footer-icon {
+    padding-left: 60px;
+  }
+
+  .footer-text {
+    padding-left: 15px;
+  }
+
+  .gallery-wrap {
+    align-items: center;
+  }
+
+  .closing-container {
+    margin-left: 244px;
+  }
+
+  .closing-header {
+    font-size: 25px;
+  }
+
+  .closing-text {
+    font-size: 20px;
+  }
+
+  .caption {
+    position: relative;
+    left: 68px;
+    margin-top: -70px;
+  }
+
+  section .footer-logo {
+    padding-right: -10px;
+  }
 }
